@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(layout='wide')
 
-df = pd.read_csv('streamlit_app\data\superstore.csv')
+df = pd.read_csv('streamlit_app/data/superstore.csv')
 
 with open("gz_2010_us_040_00_20m.json") as response:
     geo = json.load(response)
